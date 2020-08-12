@@ -25,11 +25,31 @@ object EducationETLController {
         */
         // HiveUtil.openSnappyCompression(sparkSession)
 
-        EducationETLService.etl4MemberRegtypeLog(sparkSession.sparkContext,sparkSession)
-        EducationETLService.elt4MemberLog(sparkSession.sparkContext,sparkSession)
-        EducationETLService.etl4BaseAdLog(sparkSession.sparkContext,sparkSession)
-        EducationETLService.etl4BaseWebSiteLog(sparkSession.sparkContext,sparkSession)
-        EducationETLService.etl4MemPayMoneyLog(sparkSession.sparkContext,sparkSession)
-        EducationETLService.etl4MemVipLevelLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4MemberRegtypeLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.elt4MemberLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4BaseAdLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4BaseWebSiteLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4MemPayMoneyLog(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4MemVipLevelLog(sparkSession.sparkContext,sparkSession)
+
+        //EducationETLService.etl4QzChapter(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzChapterList(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzPoint(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzPointQuestion(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzSiteCourse(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzCourse(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzCourseEdusubject(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzWebsite(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzMajor(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzBusiness(sparkSession.sparkContext,sparkSession)
+        //EducationETLService.etl4QzPaperView(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzCenterPaper(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzQuestionType(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzQuestion(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzCenter(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzPaper(sparkSession.sparkContext,sparkSession)
+//        EducationETLService.etl4QzMemberPaperQuestion(sparkSession.sparkContext,sparkSession)
+
+
     }
 }
